@@ -15,6 +15,10 @@ public class NoOfSteps {
         return helper(n/2, c+1);
 
         return helper(n-1, c+1);
+
+
+
+        
     }
     
 }
