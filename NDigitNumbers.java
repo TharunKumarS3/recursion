@@ -4,7 +4,8 @@ class NDigitNumbers
 {
     public static void main(String[] args)
     {
-        System.out.println(increasingNumbers(2));
+        //System.out.println(increasingNumbers(2));
+        
     }
 
  
