@@ -4,8 +4,8 @@ import java.util.List;
 
 public class CombinationSum2 {
     public static void main(String[] args) {
-          int[] ans={2,5,2,1,2};
-        int t=5;
+          int[] ans={1,2,3,4,5,6,7,8,9};
+        int t=9;
         List<List<Integer>> al=combinationSum2(ans, t);
        
             System.out.println(al);
@@ -22,7 +22,7 @@ public class CombinationSum2 {
     }
 
     private static void backTrack(int[] candidates, int target, int start, List<Integer> curr, List<List<Integer>> result) {
-        if(target == 0) {
+        if(target == 0 && curr.size()==4)  {
             result.add(new ArrayList<>(curr));
             return;
         }
