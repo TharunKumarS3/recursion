@@ -1,6 +1,6 @@
 public class PermutationsCount {
     public static void main(String[] args) {
-        System.out.println("no of count " +permutations("","abca"));
+        System.out.println("no of count " +permutations("","aab"));
     }
     static int permutations(String p,String up)
     {
